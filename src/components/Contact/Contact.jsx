@@ -4,6 +4,8 @@ import EmailImg from "../../images/email.png";
 import LocationImg from "../../images/address.png";
 import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
+import { useContext } from "react";
+import { ThemeContext } from "../../context";
 
 function Contact() {
   const formRef = useRef();
@@ -24,6 +26,9 @@ function Contact() {
           console.log(error.text);
     });
   };
+
+  const { state, dispatch } = useContext(ThemeContext);
+
   return (
     <div className="contact">
       <div className="contactBg"></div>
@@ -63,10 +68,10 @@ function Contact() {
             if the right project comes along. me.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
-            <input type="text" placeholder="Name" name="user_name" />
-            <input type="text" placeholder="Subject" name="user_subject" />
-            <input type="text" placeholder="Email" name="user_email" />
-            <textarea placeholder="Message" name="user_message" rows="5"></textarea>
+            <input style={{ backgroundColor: state.darkMode && "#333" }} type="text" placeholder="Name" name="user_name" />
+            <input style={{ backgroundColor: state.darkMode && "#333" }} type="text" placeholder="Subject" name="user_subject" />
+            <input style={{ backgroundColor: state.darkMode && "#333" }} type="text" placeholder="Email" name="user_email" />
+            <textarea style={{ backgroundColor: state.darkMode && "#333" }} placeholder="Message" name="user_message" rows="5"></textarea>
             <button className="contactBtn">Submit</button>
             {done && "Thank You"}
           </form>

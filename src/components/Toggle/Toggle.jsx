@@ -1,20 +1,25 @@
 import "./Toggle.css";
 import SunImg from "../../images/sun.png";
 import MoonImg from "../../images/moon.png";
-import { useState } from "react";
+import { useContext } from "react";
+import { ThemeContext } from "../../context";
 
 function Toggle() {
   
-  const [darkMode, setDarkMode] = useState(false);
+  const { state, dispatch } = useContext(ThemeContext);
+  console.log(10, state);
+  console.log(11, dispatch);
 
   return (
     <div className="toggle">
       <img src={SunImg} className="toggleIcon"></img>
       <img src={MoonImg} className="toggleIcon"></img>
       <div 
-        style={darkMode ? { right: 0 } : { left: 0 }} 
+        style={state.darkMode ? { right: 0 } : { left: 0 }} 
         className="toggleBtn" 
-        onClick={() => setDarkMode(!darkMode)} 
+        onClick={() => {
+          dispatch({type: "TOGGLE"})
+        }} 
       />
     </div>
   );
