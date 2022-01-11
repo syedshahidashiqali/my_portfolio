@@ -3,16 +3,24 @@ import PhoneImg from "../../images/phone.png";
 import EmailImg from "../../images/email.png";
 import LocationImg from "../../images/address.png";
 import { useRef } from "react";
+import emailjs from '@emailjs/browser';
 
 function Contact() {
   const formRef = useRef();
 
   const handleSubmit = e => {
     e.preventDefault();
-    console.log(12, formRef);
-    console.log(13, formRef.current);
-    console.log(14, formRef.current[0]);
-    console.log(15, formRef.current[0].value);
+    // console.log(12, formRef);
+    // console.log(13, formRef.current);
+    // console.log(14, formRef.current[0]);
+    // console.log(15, formRef.current[0].value);
+
+    emailjs.sendForm('service_ktnsejg', 'template_ehd7ucf', formRef.current, 'user_usjViLXlJGNfXdxYHTjxw')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+    });
   };
   return (
     <div className="contact">
