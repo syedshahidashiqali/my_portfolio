@@ -21,6 +21,10 @@
 
 .contactRight{
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contactTitle {
@@ -40,4 +44,38 @@
   width: 30px;
   height: 30px;
   margin-right: 20px;
+}
+
+.contactRightDesc {
+  font-weight: 200;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 50%;
+  height: 50px;
+  font-size: 14px;
+  padding-left: 10px;
+  margin: 10px 0px;
+}
+
+textarea {
+  width: 100%;
+  margin: 10px 0px;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+button.contactBtn {
+  border: none;
+  background-color: #59b256;
+  color: white;
+  padding: 15px;
+  font-weight: 500;
+  cursor: pointer;
 }
