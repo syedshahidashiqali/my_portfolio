@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     id: 4,
-    img: "https://drive.google.com/uc?export=view&id=1FtlRkwqjoBectQYdUOGUPAflFjYyXNyu",
+    img: "https://drive.google.com/uc?export=view&id=1qC7LAxcowABphr0LLDDR5nPXYf61QGy_",
     link: "http://coronavirus-tracker-by-shahid.surge.sh/",
     alt: "Covid19 Tracker"
   },
@@ -31,13 +31,13 @@ export const projects = [
   },
   {
     id: 6,
-    img: "https://drive.google.com/uc?export=view&id=1wRR48vsIBv9PR4Xz_1v5DYti6ZITPwmd",
+    img: "https://drive.google.com/uc?export=view&id=10LYAm80yrFtMXL-BTYiOMXhaL2wtgtby",
     link: "http://expense-tracker-app-by-shahid.surge.sh/",
     alt: "Expense Tracker App"
   },
   {
     id: 7,
-    img: "https://drive.google.com/uc?export=view&id=13i34erKnQ7a6KnrdVpI1iIPLzdzgp_PI",
+    img: "https://drive.google.com/uc?export=view&id=1NvyaieWTr2HLBXqFLaXGvSaSupSJ7iMQ",
     link: "https://react-calculator-app-by-shahid.surge.sh/",
     alt: "Calculator App"
   },
@@ -55,7 +55,7 @@ export const projects = [
   },
   {
     id: 10,
-    img: "https://drive.google.com/uc?export=view&id=1nAra8o0XA1bBA9uu2oabFVcDf08zqhQ8",
+    img: "https://drive.google.com/uc?export=view&id=1rtTLhUnHBYO37qFvLFgzuK7A97IDxrEF",
     link: "http://shoes-store-by-shahid.surge.sh/",
     alt: "Shoes Store"
   },
@@ -67,13 +67,13 @@ export const projects = [
   },
   {
     id: 12,
-    img: "https://drive.google.com/uc?export=view&id=1dzcVqdcP695OB-_Gt31aky_aOTpFdL8x",
+    img: "https://drive.google.com/uc?export=view&id=1HNgrgzO0ZWbICi6bPrswHAleAletAtpA",
     link: "https://ecommerce-product-page-by-shahid.surge.sh/",
     alt: "E-Commerce page"
   },
   {
     id: 13,
-    img: "https://drive.google.com/uc?export=view&id=1R-J_g42BA-ZXsjw9JzQSp9s0p40gl5R7",
+    img: "https://drive.google.com/uc?export=view&id=1ZRgUmT1ce18HbSrRyq5bwpanNRs28z8D",
     link: "https://pong-clone-by-shahid.surge.sh/",
     alt: "Pong Game Clone"
   },
