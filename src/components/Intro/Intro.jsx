@@ -10,10 +10,13 @@ function Intro() {
           <h1 className="introLeftName">Shahid Ali</h1>
           <div className="introLeftTitles">
             <div className="introLeftItemWrapper">
-            <div className="introLeftItem">Web and Mobile App Developer</div>
+            <div className="introLeftItem">Web App Developer</div>
+            <div className="introLeftItem">Mobile App Developer</div>
             <div className="introLeftItem">UI / UX Developer</div>
-            <div className="introLeftItem">ReactJS / React-Native Developer</div>
-            <div className="introLeftItem">NodeJS / ExpressJS Developer</div>
+            <div className="introLeftItem">ReactJS Developer</div>
+            <div className="introLeftItem">React-Native Dev</div>
+            <div className="introLeftItem">NodeJS Developer</div>
+            <div className="introLeftItem">ExpressJS Developer</div>
             <div className="introLeftItem">MERN stack Developer</div>
             <div className="introLeftItem">Frontend Developer</div>
             <div className="introLeftItem">Backend Developer</div>

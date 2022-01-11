@@ -88,3 +88,24 @@
   width: 30px;
   height: 30px;
 }
+
+@media screen and (max-width:480px) {
+  .intro {
+    flex-direction: column;
+  }
+  .introLeftWrapper {
+    padding: 10px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .introDetail {
+    display: none;
+  }
+  .introLeftItemWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
