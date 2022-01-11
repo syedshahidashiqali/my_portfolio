@@ -9,3 +9,35 @@
   background-color: #59b256;
   position: absolute;
 }
+
+.contactWrapper {
+  display: flex;
+  padding: 50px;
+}
+
+.contactLeft {
+  flex: 1;
+}
+
+.contactRight{
+  flex: 1;
+}
+
+.contactTitle {
+  font-size: 60px;
+  width: 80%;
+}
+
+.contactInfoItem {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: 50px 0px;
+  font-weight: 300;
+}
+
+.contactInfoImg {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
