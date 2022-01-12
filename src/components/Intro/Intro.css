@@ -109,3 +109,24 @@
     align-items: center;
   }
 }
+
+@media screen and (max-width: 870px) and (min-width:480px){
+  .intro {
+    flex-direction: column;
+  }
+  .introLeftWrapper {
+    padding: 10px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .introLeftItemWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .introImg {
+    object-fit: contain;
+  }
+}
