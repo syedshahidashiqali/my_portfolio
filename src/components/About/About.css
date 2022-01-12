@@ -72,3 +72,25 @@
   color: #555;
   margin-bottom: 10px;
 }
+
+@media screen and (max-width:480px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .aboutLeft {
+    width: 100%;
+  }
+  .aboutCard {
+    height: 30vh;
+  }
+
+  .aboutCard.Bg, .aboutAward {
+    display: none; 
+  }
+
+  .aboutRight{
+    padding: 20px;
+  }
+}
