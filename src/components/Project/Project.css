@@ -32,3 +32,10 @@
 .project:hover .projectImg {
   transform: translateY(-100%);
 }
+
+@media screen and (max-width: 480px) {
+  .project {
+    width: 100%;
+    height: 50vh;
+  }
+}
