@@ -6,11 +6,11 @@ function ProjectList() {
     <div className="projectList">
       <div className="projectListTexts">
         <h1 className="projectListTextTitle">
-        Create & inspire. It's Lama
+        Creativity & Inspiration.
         </h1>
         <p className="projectListTextDesc">
-          Lama is a creative portfolio that your work has been waiting for. Beautiful homes, 
-          stunning portfolio styles & a whole lot more awaits inside.
+          It is a portfolio that showcases and summarizes all of my projects that I have worked on so far.
+          Please have a look at these :)
         </p>
       </div>
       <div className="projectListContainer">

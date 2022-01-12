@@ -1,8 +1,8 @@
 import "./Project.css";
 
 function Project({img, link, alt}) {
-  console.log(img)
-  console.log(link)
+  // console.log(img)
+  // console.log(link)
   return (
     <div className="project">
       <div className="projectBrowser">
