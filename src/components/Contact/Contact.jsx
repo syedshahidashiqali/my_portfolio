@@ -6,6 +6,10 @@ import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
+import facebookImg from "../../images/facebook-icon.png";
+import linkedinImg from "../../images/linkedin-icon.png";
+import twitterImg from "../../images/twitter-icon.png";
+import gitHubImg from "../../images/github-icon.png";
 
 function Contact() {
   const formRef = useRef();
@@ -52,13 +56,54 @@ function Contact() {
                 />
               syedshahid1215@gmail.com
             </div>
-            <div className="contactInfoItem">
+            <div className="contactInfoItem loc-hidden">
               <img 
                 className="contactInfoImg"
                 src={LocationImg} 
                 alt="" 
                 />
               Karachi, Pakistan
+            </div>
+            <div className="contactInfoItem">
+              <a href="https://www.facebook.com/syedshahid.ali.9083" target="_blank" rel="noreferrer noopener">
+              <img 
+                className="contactInfoImg"
+                src={facebookImg} 
+                alt="" 
+                />
+              </a>
+              Like me on Facebook
+            </div>
+            <div className="contactInfoItem">
+              <a href="https://www.linkedin.com/in/shahid-ashiq-ali-40522a18b" target="_blank" rel="noreferrer noopener">
+              <img 
+                className="contactInfoImg"
+                src={linkedinImg} 
+                alt="" 
+                />
+              </a>
+              Follow me on LinkedIn
+            </div>
+            <div className="contactInfoItem loc-hidden">
+              <a href="https://twitter.com/syed_shahid258?t=68QKQF2BrjsdwuuDlD5uIg&s=09" target="_blank" rel="noreferrer noopener">
+              <img 
+                className="contactInfoImg"
+                src={twitterImg} 
+                alt="" 
+                />
+              </a>
+              Follow me on Twitter
+            </div>
+            <div className="contactInfoItem">
+              <a href="https://github.com/syedshahidashiqali" target="_blank" rel="noreferrer noopener">
+              <img 
+                style={{ backgroundColor:"white", borderRadius:"50%", overflow:"hidden" }}
+                className="contactInfoImg"
+                src={gitHubImg} 
+                alt="" 
+                />
+              </a>
+              Follow me on GitHub
             </div>
           </div>
         </div>
