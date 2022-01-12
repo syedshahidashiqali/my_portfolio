@@ -40,3 +40,15 @@
   }
 
 }
+
+@media screen and (max-width: 832px) and (min-width:480px) {
+  .projectListContainer {
+    justify-content: center;
+  } 
+}
+
+@media screen and (max-width: 1124px){
+  .projectListTexts {
+    width: 80%;
+  }
+}
