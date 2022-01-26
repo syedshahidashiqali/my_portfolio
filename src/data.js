@@ -3,13 +3,13 @@ export const projects = [
     id: 16,
     img: "https://drive.google.com/uc?export=view&id=1IgVH3Md_qPkpTiJgu29bUxyVWQNoPbUc",
     link: "https://nextjs-food-order-app.vercel.app/",
-    alt: "E-commerce food ordering app using React NEXT JS" 
+    alt: "NEXT JS E-commerce" 
   },
   {
     id: 17,
     img: "https://drive.google.com/uc?export=view&id=180USVklyAaW7MC0FOasABDUp189XJ1uq",
     link: "https://react-budget-app-by-shahid.surge.sh/",
-    alt: "Budget app using React JS and Bootstrap V5" 
+    alt: "Budget app with React" 
   },
   {
     id: 1,
@@ -102,5 +102,3 @@ export const projects = [
     alt: "car animation WAAPI"
   },
 ];
-
-// test
