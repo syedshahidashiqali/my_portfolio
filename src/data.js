@@ -1,5 +1,17 @@
 export const projects = [
   {
+    id: 16,
+    img: "https://drive.google.com/uc?export=view&id=1IgVH3Md_qPkpTiJgu29bUxyVWQNoPbUc",
+    link: "https://nextjs-food-order-app.vercel.app/",
+    alt: "E-commerce food ordering app using React NEXT JS" 
+  },
+  {
+    id: 17,
+    img: "https://drive.google.com/uc?export=view&id=180USVklyAaW7MC0FOasABDUp189XJ1uq",
+    link: "https://react-budget-app-by-shahid.surge.sh/",
+    alt: "Budget app using React JS and Bootstrap V5" 
+  },
+  {
     id: 1,
     img: "https://drive.google.com/uc?export=view&id=1FIsvRZe_yTOjY5Dzrj5iUs5UBiWWw995",
     link: "https://facebook-clone-by-shahid.surge.sh/",
