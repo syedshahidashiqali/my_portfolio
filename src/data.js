@@ -2,7 +2,7 @@ export const projects = [
   {
     id: 18,
     img: "https://drive.google.com/uc?export=view&id=1W0G5MyFYPTjEimo5yb0BQP5Bx7n79K70",
-    link: "https://nextjs-food-order-app.vercel.app/",
+    link: "https://moyen-xpress-ecommerce-by-shahid.surge.sh/",
     alt: "MoyenXpress E-commerce",
   },
   {
